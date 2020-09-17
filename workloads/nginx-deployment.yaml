@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: hbstarjason/nginx:v5
+        image: hbstarjason/nginx:v4
         ports:
         - containerPort: 80
