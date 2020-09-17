@@ -4,6 +4,8 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   namespace: web
+  annotations:
+    fluxcd.io/automated: "true"
 spec:
   selector:
     matchLabels:
